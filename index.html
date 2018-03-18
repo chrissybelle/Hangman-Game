@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="assets/css/reset.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One|Patrick+Hand+SC" rel="stylesheet">
+    <title>Stranger Words</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/images/stranger-words.png" id="main-image">
+    </header>
+    <div class="main-content">
+        <div class="feedback">
+
+        </div>
+        <div class="game-content">
+            <p class="instructions">Press any key to get started!</p>
+            <section class="mystery-word">
+                <h2>Current word:</h2>
+                <span id="word" class="dynamic-content"></span>
+            </section>
+            <section class="letters-guessed">
+                <h2>Letters guessed:</h2>
+                <span id="guesses" class="dynamic-content"></span>
+            </section>
+            <section class="tries-remaining">
+                <h2>Guesses remaining:</h2>
+                <span id="tries" class="dynamic-content"></span>
+            </section>
+            <section class="scoreboard">
+                <h2>Number of wins:</h2>
+                <span id="score-wins" class="dynamic-content"></span>
+            </section>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+
+
+</html>
